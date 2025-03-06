@@ -42,6 +42,7 @@ public class test {
         DogStepTracker deserializedTracker = (DogStepTracker) ois.readObject(); // down-casting object
 
         System.out.println("Dog Name: " + deserializedTracker.dogName + ", Steps: " + deserializedTracker.steps);
+        System.out.println("Dog Breed: " + deserializedTracker.dogBreed + "Owner Name: " + deserializedTracker.owner);
 
         // closing streams
         oos.close();
