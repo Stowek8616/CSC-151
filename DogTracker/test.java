@@ -14,9 +14,11 @@ class DogStepTracker implements Serializable {
     
 
     // DogStepTracker class constructor
-    public DogStepTracker(int steps, String dogName) {
+    public DogStepTracker(int steps, String dogName, String dogBreed, String owner) {
         this.steps = steps;
         this.dogName = dogName;
+        this.dogBreed = dogBreed;
+        this.owner = owner;
     }
 }
 
